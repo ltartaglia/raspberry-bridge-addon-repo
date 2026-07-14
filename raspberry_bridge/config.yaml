@@ -1,0 +1,17 @@
+name: Raspberry Bridge
+version: 1.0.12
+slug: raspberry_bridge
+description: Firebase realtime listener
+startup: services
+boot: manual
+init: false
+arch:
+  - aarch64
+  - amd64
+image: ghcr.io/ltartaglia/raspberry-bridge
+
+options:
+  service_account_key: {}
+
+schema:
+  service_account_key: map
