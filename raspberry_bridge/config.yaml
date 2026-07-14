@@ -1,5 +1,5 @@
 name: Raspberry Bridge
-version: 1.0.12
+version: 2.0.0
 slug: raspberry_bridge
 description: Firebase realtime listener
 startup: services
