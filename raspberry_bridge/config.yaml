@@ -11,7 +11,7 @@ arch:
 image: ghcr.io/ltartaglia/raspberry-bridge
 
 options:
-  service_account_key: {}
+  service_account_key: ""
 
 schema:
-  service_account_key: map
+  service_account_key: str
